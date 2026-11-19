@@ -1,0 +1,13 @@
+configuration:
+  deviceaddr:
+    name: Dirección del SAI
+    description: La dirección IP de la tarjeta de gestión de red del SAI con SNMP habilitado.
+  deviceport:
+    name: Puerto SNMP
+    description: El número de puerto para la comunicación SNMPv1/v2 con el SAI.
+  snmpcommunity:
+    name: Comunidad SNMP
+    description: La cadena de comunidad SNMP para acceder al SAI.
+  polltime:
+    name: Intervalo de consulta
+    description: El intervalo, en segundos, con el que el demonio consulta el estado del SAI.
